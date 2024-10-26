@@ -1,0 +1,11 @@
+username,tweet,timestamp,sentiment
+user1,"I love the new features in the app! Can't wait to use them all.",2024-10-20 12:34:56,positive
+user2,"The latest update is terrible. It keeps crashing.",2024-10-21 14:15:22,negative
+user3,"Just had the best day at the beach! Sun, sand, and smiles.",2024-10-22 09:05:10,positive
+user4,"Why is customer service so unhelpful? Totally frustrating!",2024-10-23 10:30:45,negative
+user5,"Excited for the upcoming concert! It's going to be amazing!",2024-10-24 18:22:33,positive
+user6,"I don't understand the hype around this new movie. It was boring.",2024-10-25 16:12:11,negative
+user7,"Feeling grateful for my friends and family today.",2024-10-26 08:00:00,positive
+user8,"This weather is just awful. Rain all week!",2024-10-27 11:47:30,negative
+user9,"Finally finished reading that book! It was a great read.",2024-10-28 14:05:25,positive
+user10,"Can't believe how fast time flies. It feels like yesterday!",2024-10-29 20:30:00,neutral

@@ -1,0 +1,9 @@
+tweepy
+pandas
+nltk
+spacy
+transformers
+torch
+flask
+dash
+plotly

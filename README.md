@@ -106,6 +106,129 @@ Ensure that you have the following installed on your device:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sentiment_analysis_project.git
-cd sentiment_analysis_project
+git clone https://github.com/VivekkumarChauhan/SentimentInsight.git
+cd SentimentInsight
+```
+### Step 2: Install Dependencies
+Use the `requirements.txt` file to install necessary packages.
+```bash
+pip install -r requirements.txt
+
+```
+
+## Step 3: Set Up Configuration
+
+1. **Add your Twitter API credentials**:
+   - Open the `config/credentials.py` file.
+   - Insert your Twitter API credentials (consumer key, consumer secret, access token, and access token secret) as follows:
+
+   ```python
+   # config/credentials.py
+
+   # Twitter API credentials
+   TWITTER_API_KEY = 'your_consumer_key'
+   TWITTER_API_SECRET = 'your_consumer_secret'
+   TWITTER_ACCESS_TOKEN = 'your_access_token'
+   TWITTER_ACCESS_TOKEN_SECRET = 'your_access_token_secret'
+
+
+
+2. **Open the `config/settings.py` file.**
+
+3. **Modify any project-specific settings as needed.** This may include configurations such as environment variables, database settings, or API endpoints. Here’s an example of what the settings file might look like:
+
+   ```python
+   # config/settings.py
+
+   # Example settings
+   DEBUG = True
+   DATABASE_URI = 'sqlite:///your_database.db'
+
+
+## Step 4: Run Data Collection and Model Training (Optional)
+
+1. **Gather Data from Twitter**:
+   - Use the Jupyter Notebook located at `notebooks/data_collection.ipynb` to collect data from Twitter.
+
+2. **Preprocess Data and Train the Sentiment Model**:
+   - After collecting the data, use the following notebooks for further processing:
+     - `notebooks/data_preprocessing.ipynb`: Preprocess the collected data to prepare it for model training.
+     - `notebooks/model_training.ipynb`: Train the sentiment analysis model using the preprocessed data.
+
+Make sure to follow the instructions in each notebook to ensure successful execution of data collection and model training.
+
+## Step 5: Run the Application
+
+Run the Flask API and Dash Dashboard for predictions and visualizations. Use the following commands in your terminal:
+
+```bash
+# Start the Flask API
+python app/api.py
+
+# Start the Dash Dashboard
+python app/dashboard.py
+```
+## Step 5: Run the Application
+
+Run the Flask API and Dash Dashboard for predictions and visualizations. Use the following commands in your terminal:
+
+```bash
+# Start the Flask API
+python app/api.py
+
+# Start the Dash Dashboard
+python app/dashboard.py
+```
+## Step 6: Access the Dashboard
+
+Open your browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000) to access the **SentimentInsight** dashboard.
+## Usage
+
+- Use the dashboard to input search terms or hashtags to analyze public sentiment.
+- Explore real-time visualizations of sentiment analysis to gain insights into public opinions and trends.
+## Docker Deployment
+
+To deploy the application using Docker, follow these steps:
+
+1. **Build the Docker image**:
+
+   ```bash
+   docker build -t sentimentinsight .
+2.  **Run the container**:
+   ```bash
+   ```bash
+   docker run -p 5000:5000 sentimentinsight
+```
+This command will run the container and map port 5000 of the container to port 5000 on your host machine, allowing you to access the application at `http://127.0.0.1:5000`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+We welcome contributions to enhance **SentimentInsight**! If you're interested in contributing, please follow these steps:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature-branch
+3.**Commit your changes**:
+  ```bash
+  git commit -m 'Add feature'
+  ```
+4.**Push to the branch**:
+  ```bash
+    git push origin feature-branch
+  ```
+5.**Open a Pull Request**.
+
+
+
+
+
+
+
+
+
 

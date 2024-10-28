@@ -45,3 +45,14 @@ sentiment_analysis_project/
 ├── Dockerfile                # Docker configuration for deployment
 ├── requirements.txt          # Required Python packages
 └── README.md                 # Project documentation
+```
+## Features
+- **Real-Time Sentiment Analysis**: Process Twitter data to analyze sentiment in real time.
+- **Aspect-Based Sentiment Analysis**: Extract and analyze sentiments on specific aspects of posts.
+- **Multilingual Support**: Analyze sentiments across multiple languages.
+- **Interactive Dashboard**: Visualize sentiment analysis through an intuitive web interface.
+## Tech Stack
+- Programming Language: Python
+- **Libraries**:
+    -**Natural Language Processing**: NLTK, SpaCy, Transformers (Hugging Face)
+    

@@ -52,10 +52,9 @@ sentiment_analysis_project/
 - **Multilingual Support**: Analyze sentiments across multiple languages.
 - **Interactive Dashboard**: Visualize sentiment analysis through an intuitive web interface.
 ## Tech Stack
-- Programming Language: Python
-- **Libraries**:
-    -**Natural Language Processing**: NLTK, SpaCy, Transformers (Hugging Face)
-## Code Libraries
+### Programming Language: Python
+
+### Code Libraries
 
 ### Natural Language Processing
 - **[NLTK](https://www.nltk.org/)**: For text processing and tokenization.
@@ -74,4 +73,24 @@ sentiment_analysis_project/
 - **[Matplotlib](https://matplotlib.org/)**: Plotting library for creating static, animated, and interactive visualizations.
 - **[Seaborn](https://seaborn.pydata.org/)**: Statistical data visualization built on top of Matplotlib.
 - **[Plotly](https://plotly.com/python/)**: Interactive graphing library that makes data visualizations web-compatible.
+
+## Web Frameworks
+
+### API
+- **[Flask](https://flask.palletsprojects.com/)**: Lightweight framework for building RESTful APIs to interact with data and provide backend functionality.
+
+### Dashboard
+- **[Dash](https://dash.plotly.com/)**: Framework for building interactive, web-based visualizations, ideal for displaying analysis results and data insights.
+
+### Database
+- **[SQLite](https://www.sqlite.org/)** or **[MongoDB](https://www.mongodb.com/)** (optional): Used for storing analyzed data, depending on the project requirements.
+
+### Data Sources
+- **[Twitter API](https://developer.twitter.com/)**: Provides real-time tweet data for analysis and trend tracking.
+
+### Containerization
+- **[Docker](https://www.docker.com/)**: For containerizing the application, enabling easy deployment and consistent environment setup.
+
+### Version Control
+- **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**: For code versioning, collaboration, and repository management.
 

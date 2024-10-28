@@ -196,9 +196,8 @@ To deploy the application using Docker, follow these steps:
    docker build -t sentimentinsight .
 2.  **Run the container**:
    ```bash
-   ```bash
    docker run -p 5000:5000 sentimentinsight
-```
+   ```
 This command will run the container and map port 5000 of the container to port 5000 on your host machine, allowing you to access the application at `http://127.0.0.1:5000`.
 
 ## License
@@ -213,15 +212,15 @@ We welcome contributions to enhance **SentimentInsight**! If you're interested i
 2. **Create a new branch**:
    ```bash
    git checkout -b feature-branch
-3.**Commit your changes**:
+3. **Commit your changes**:
    ```bash
    git commit -m 'Add feature'
    ```
-4.**Push to the branch**:
+4. **Push to the branch**:
    ```bash
     git push origin feature-branch
    ```
-5.**Open a Pull Request**.
+5. **Open a Pull Request**.
 
 
 

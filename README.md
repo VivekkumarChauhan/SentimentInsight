@@ -55,4 +55,23 @@ sentiment_analysis_project/
 - Programming Language: Python
 - **Libraries**:
     -**Natural Language Processing**: NLTK, SpaCy, Transformers (Hugging Face)
-    
+## Code Libraries
+
+### Natural Language Processing
+- **[NLTK](https://www.nltk.org/)**: For text processing and tokenization.
+- **[SpaCy](https://spacy.io/)**: Industrial-strength NLP for large-scale information extraction.
+- **[Transformers (Hugging Face)](https://huggingface.co/transformers/)**: Pre-trained models for NLP tasks like text classification and sentiment analysis.
+
+### Machine Learning
+- **[Scikit-Learn](https://scikit-learn.org/stable/)**: Tools for data mining, data analysis, and machine learning.
+- **[PyTorch](https://pytorch.org/)**: Deep learning framework with a focus on flexibility and ease of experimentation.
+
+### Data Processing
+- **[Pandas](https://pandas.pydata.org/)**: Data manipulation and analysis library for tabular data.
+- **[NumPy](https://numpy.org/)**: Fundamental package for numerical computation in Python.
+
+### Visualization
+- **[Matplotlib](https://matplotlib.org/)**: Plotting library for creating static, animated, and interactive visualizations.
+- **[Seaborn](https://seaborn.pydata.org/)**: Statistical data visualization built on top of Matplotlib.
+- **[Plotly](https://plotly.com/python/)**: Interactive graphing library that makes data visualizations web-compatible.
+

@@ -94,3 +94,18 @@ sentiment_analysis_project/
 ### Version Control
 - **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**: For code versioning, collaboration, and repository management.
 
+## Installation
+
+### Prerequisites
+
+Ensure that you have the following installed on your device:
+
+- **Python 3.8+**
+- **Docker** (for containerized deployment, optional)
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/sentiment_analysis_project.git
+cd sentiment_analysis_project
+

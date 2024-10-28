@@ -214,13 +214,13 @@ We welcome contributions to enhance **SentimentInsight**! If you're interested i
    ```bash
    git checkout -b feature-branch
 3.**Commit your changes**:
-  ```bash
-  git commit -m 'Add feature'
-  ```
+   ```bash
+   git commit -m 'Add feature'
+   ```
 4.**Push to the branch**:
-  ```bash
+   ```bash
     git push origin feature-branch
-  ```
+   ```
 5.**Open a Pull Request**.
 
 

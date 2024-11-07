@@ -168,17 +168,6 @@ python app/api.py
 # Start the Dash Dashboard
 python app/dashboard.py
 ```
-## Step 5: Run the Application
-
-Run the Flask API and Dash Dashboard for predictions and visualizations. Use the following commands in your terminal:
-
-```bash
-# Start the Flask API
-python app/api.py
-
-# Start the Dash Dashboard
-python app/dashboard.py
-```
 ## Step 6: Access the Dashboard
 
 Open your browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000) to access the **SentimentInsight** dashboard.
